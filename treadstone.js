@@ -23,7 +23,7 @@ stream.on('follow', event => {
   let source = event.source
   let screenName = source.screen_name
 
-  let welcome = quotes[11]
+  let welcome = quotes[10]
 
   T.post('statuses/update', {
     status: `@${screenName}; ${welcome}`

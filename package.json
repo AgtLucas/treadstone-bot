@@ -1,10 +1,11 @@
 {
-  "name": "random-quotes-bot",
+  "name": "treadstone-bot",
   "version": "1.0.0",
   "description": "Just a Twitter bot who tweets random quotes",
   "main": "bot.js",
   "scripts": {
-    "start": "node treadstone.js"
+    "start": "node treadstone.js",
+    "build": "now --public && now ln"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,6 @@
     "twit": "^2.2.5"
   },
   "now": {
-    "alias": "treadstone-bot",
-    "env": {
-
-    }
+    "alias": "treadstone-bot"
   }
 }
