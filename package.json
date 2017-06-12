@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "start": "node treadstone.js",
-    "build": "now --public && now ln"
+    "deploy": "now --public && now ln"
   },
   "repository": {
     "type": "git",
