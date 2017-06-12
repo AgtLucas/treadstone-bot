@@ -18,5 +18,11 @@
   "homepage": "https://github.com/AgtLucas/random-quotes-bot#readme",
   "dependencies": {
     "twit": "^2.2.5"
+  },
+  "now": {
+    "alias": "treadstone-bot",
+    "env": {
+      
+    }
   }
 }
