@@ -16,7 +16,8 @@ const T = new Twit({
   consumer_key: process.env.tw_consumer_api_key || config.TW_CONSUMER_API_KEY,
   consumer_secret: process.env.tw_consumer_api_secret || config.TW_CONSUMER_API_SECRET,
   access_token: process.env.tw_access_token || config.TW_ACCESS_TOKEN,
-  access_token_secret: process.env.tw_access_token_secret || config.TW_ACCESS_TOKEN_SECRET
+  access_token_secret: process.env.tw_access_token_secret || config.TW_ACCESS_TOKEN_SECRET,
+  timeout_ms: 60 * 1000
 })
 
 const stream = T.stream('user')
