@@ -13,10 +13,10 @@ try {
 const shuffle = arr => arr[Math.floor(Math.random() * arr.length)]
 
 const T = new Twit({
-  consumer_key: process.env.TW_CONSUMER_API_KEY || config.TW_CONSUMER_API_KEY,
-  consumer_secret: process.env.TW_CONSUMER_API_SECRET || config.TW_CONSUMER_API_SECRET,
-  access_token: process.env.TW_ACCESS_TOKEN || config.TW_ACCESS_TOKEN,
-  access_token_secret: process.env.TW_ACCESS_TOKEN_SECRET || config.TW_ACCESS_TOKEN_SECRET
+  consumer_key: process.env.tw_consumer_api_key || config.TW_CONSUMER_API_KEY,
+  consumer_secret: process.env.tw_consumer_api_secret || config.TW_CONSUMER_API_SECRET,
+  access_token: process.env.tw_access_token || config.TW_ACCESS_TOKEN,
+  access_token_secret: process.env.tw_access_token_secret || config.TW_ACCESS_TOKEN_SECRET
 })
 
 const stream = T.stream('user')
