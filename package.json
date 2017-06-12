@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/random-quotes-bot/issues"
   },
-  "homepage": "https://github.com/AgtLucas/random-quotes-bot#readme"
+  "homepage": "https://github.com/AgtLucas/random-quotes-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
 }
