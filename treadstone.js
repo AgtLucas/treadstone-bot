@@ -29,7 +29,7 @@ stream.on('follow', event => {
   const welcome = quotes[10]
 
   T.post('statuses/update', {
-    status: `@${screenName}; ${welcome}`
+    status: `@${screenName} ${welcome}`
   }, (err, data, response) => {
     console.log(err)
   })
@@ -43,7 +43,7 @@ stream.on('tweet', message => {
 
   if (message.in_reply_to_screen_name === 'TreadstoneBot') {
     T.post('statuses/update', {
-      status: `@${screenName}: ${quote}`
+      status: `@${screenName} ${quote}`
     }, (err, data, response) => {
       console.log(err)
     })
