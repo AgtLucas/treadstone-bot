@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgtLucas/random-quotes-bot.git"
+    "url": "git+https://github.com/Treadstone/treadstone-bot.git"
   },
   "author": "Lucas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AgtLucas/random-quotes-bot/issues"
+    "url": "https://github.com/Treadstone/treadstone-bot/issues"
   },
-  "homepage": "https://github.com/AgtLucas/random-quotes-bot#readme",
+  "homepage": "https://github.com/Treadstone/treadstone-bot#readme",
   "dependencies": {
     "twit": "^2.2.5"
   },
