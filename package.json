@@ -28,5 +28,8 @@
       "tw_access_token": "@tw_access_token",
       "tw_access_token_secret": "@tw_access_token_secret"
     }
+  },
+  "devDependencies": {
+    "prettier-standard": "^5.1.0"
   }
 }
